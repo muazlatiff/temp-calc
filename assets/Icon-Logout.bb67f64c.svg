@@ -1,0 +1,18 @@
+<svg id="Icon_Logout" data-name="Icon Logout" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Rectangle_13959" data-name="Rectangle 13959" fill="#333" stroke="#707070" stroke-width="1" opacity="0">
+    <rect width="20" height="20" stroke="none"/>
+    <rect x="0.5" y="0.5" width="19" height="19" fill="none"/>
+  </g>
+  <g id="logout_1_" data-name="logout (1)" transform="translate(1 -0.783)">
+    <g id="Group_47818" data-name="Group 47818" transform="translate(0 0.85)">
+      <g id="Group_47817" data-name="Group 47817">
+        <path id="Path_34293" data-name="Path 34293" d="M7.967,19.122H2.492a.831.831,0,0,1-.831-.831V3.342a.831.831,0,0,1,.831-.831H7.967a.831.831,0,0,0,0-1.661H2.492A2.5,2.5,0,0,0,0,3.342v14.95a2.5,2.5,0,0,0,2.492,2.492H7.967a.831.831,0,1,0,0-1.661Z" transform="translate(0 -0.85)" fill="#333"/>
+      </g>
+    </g>
+    <g id="Group_47820" data-name="Group 47820" transform="translate(4.645 5.003)">
+      <g id="Group_47819" data-name="Group 47819">
+        <path id="Path_34294" data-name="Path 34294" d="M183.208,112.387l-5.05-4.983a.83.83,0,0,0-1.166,1.183l3.609,3.561h-9.67a.831.831,0,0,0,0,1.661h9.67l-3.609,3.561a.83.83,0,1,0,1.166,1.183l5.05-4.983a.83.83,0,0,0,0-1.183Z" transform="translate(-170.1 -107.165)" fill="#333"/>
+      </g>
+    </g>
+  </g>
+</svg>
