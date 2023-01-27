@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg+xml" href="ade-logo-white.png" />
     <link
       rel="stylesheet"
@@ -16,6 +17,8 @@
       crossorigin="anonymous"
     />
     <title>CASCADE</title>
+    <link rel="canonical" href="https://muazlatiff.github.io/temp-calc/" />
+    <link rel="manifest" href="manifest.webmanifest">
     <script type="module" crossorigin src="index.js"></script>
     <link rel="stylesheet" href="assets/index.3cc2f7d8.css">
   </head>
@@ -36,6 +39,15 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+    
+    <script>
+      if (navigator.serviceWorker) {
+        navigator.serviceWorker.register (
+          'sw.js',
+          {scope: '/temp-calc/'}
+        )
+      }
+    </script>
     
   </body>
 </html>
