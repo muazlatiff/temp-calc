@@ -21,6 +21,18 @@
     <link rel="manifest" href="manifest.webmanifest">
     <script type="module" crossorigin src="index.js"></script>
     <link rel="stylesheet" href="assets/index.3cc2f7d8.css">
+
+    <style>
+      /* Disable PWA pull to refresh */
+      body {
+        overflow: hidden !important;
+      }
+      #root {
+        height: 100vh !important;
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
