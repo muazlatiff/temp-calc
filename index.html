@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="/temp-calc/assets/index.77388d6b.css">
 
     <link rel="canonical" href="https://muazlatiff.github.io/temp-calc/">
-    <link rel="manifest" href="https://muazlatiff.github.io/temp-calc/pwa-temp-calc.webmanifest">
+    <link rel="manifest" href="https://muazlatiff.github.io/temp-calc/manifest.json">
   </head>
   <body>
     <div id="root"></div>
@@ -45,7 +45,7 @@
   <script>
     if (navigator.serviceWorker) {
       navigator.serviceWorker.register (
-        '/temp-calc/pwa-temp-calc.js',
+        '/temp-calc/sw.js',
         {scope: '/temp-calc/'}
       )
     }

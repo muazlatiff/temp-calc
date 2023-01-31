@@ -1,0 +1,17 @@
+{
+    "name": "AC Fuel Calculator - CASCADE",
+    "short_name": "ACFC",
+    "description": "Progressive Web App for AC Fuel Calculator",
+    "scope": "/temp-calc/",
+    "start_url": "/temp-calc/",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/temp-calc/pwa-temp-calc-ico.png",
+            "type": "image/png",
+            "sizes": "96x96"
+        }
+    ]
+}
