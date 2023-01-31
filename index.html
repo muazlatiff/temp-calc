@@ -20,8 +20,8 @@
     <script type="module" crossorigin src="/temp-calc/index.js"></script>
     <link rel="stylesheet" href="/temp-calc/assets/index.77388d6b.css">
 
-    <link rel="canonical" href="https://muazlatiff.github.io/temp-calc/">
-    <link rel="manifest" href="https://muazlatiff.github.io/temp-calc/pwa-temp-calc.webmanifest">
+    <!-- <link rel="canonical" href="https://muazlatiff.github.io/temp-calc/">
+    <link rel="manifest" href="https://muazlatiff.github.io/temp-calc/pwa-temp-calc.webmanifest"> -->
   </head>
   <body>
     <div id="root"></div>
@@ -40,6 +40,16 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
+
+
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register (
+        '/temp-calc/pwa-temp-calc.js',
+        {scope: '/temp-calc/'}
+      )
+    }
+  </script>
     
   </body>
 </html>
