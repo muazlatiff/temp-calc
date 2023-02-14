@@ -5,7 +5,7 @@ var APP_PREFIX = 'tcpwa_';
 // every new deployment, need to update the prefix depending on new bundle filename
 var JS_PREFIX = '3b37ebd9';
 // every new deployment, need to update the prefix depending on new bundle filename
-var CSS_PREFIX = 'ddbb543e';
+var CSS_PREFIX = 'f1fcae4a';
 
 var URLS = [
   `/${GHPATH}/`,
